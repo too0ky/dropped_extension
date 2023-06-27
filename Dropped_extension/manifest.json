@@ -1,0 +1,14 @@
+{
+  "name": "Dropped URLs",
+  "description": "List of dropped URL for Document Push",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://127.0.0.1:5000/*"],
+  "permissions": [
+    "downloads"
+  ]
+ 
+}
